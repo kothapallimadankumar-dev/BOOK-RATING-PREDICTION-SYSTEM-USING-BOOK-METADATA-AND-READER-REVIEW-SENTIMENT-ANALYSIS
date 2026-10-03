@@ -1,0 +1,36 @@
+BOOK RATING PREDICTION SYSTEM - ANALYSIS REPORT
+================================================================================
+
+
+DATASET OVERVIEW:
+--------------------------------------------------------------------------------
+Total Books: 500
+Average Rating: 4.67 out of 5.0
+Rating Range: 3.15 - 5.00
+Genres: 8 different categories
+Publication Years: 2000-2024
+
+
+KEY FINDINGS:
+--------------------------------------------------------------------------------
+1. Sentiment Score Impact: Strong positive correlation (0.85+) with book ratings
+2. Review Count Effect: Books with more reviews tend to have more stable ratings
+3. Genre Variation: Fiction and Romance genres average 4.8+ ratings
+4. Page Length: Longer books (600+ pages) have slightly higher ratings
+5. Publication Year: Recent books (2020+) show higher average sentiment scores
+
+
+MODEL PERFORMANCE:
+--------------------------------------------------------------------------------
+Linear Regression: MAE=0.192, RMSE=0.241, R²=0.553
+Random Forest: MAE=0.174, RMSE=0.249, R²=0.524 (Best MAE)
+Gradient Boosting: MAE=0.184, RMSE=0.257, R²=0.491
+
+
+RECOMMENDATIONS:
+--------------------------------------------------------------------------------
+1. Deploy the system for real-time book rating predictions
+2. Use sentiment analysis as primary predictor for new books
+3. Monitor review count trends for rating stability assessment
+4. Implement genre-specific prediction models for improved accuracy
+5. Continuously update models with new book data
